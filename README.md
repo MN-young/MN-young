@@ -1,45 +1,67 @@
-## Hi, I'm Young 👋
+# Hi, I'm Young 👋
+
+**Security Engineering | SOC | Detection Engineering | Cloud Security | DevSecOps**
+
 ## About Me
 
-I'm an aspiring Security Engineer passionate about networking, cloud security, Linux, and ethical hacking.
+I build practical security engineering skills through hands-on labs focused on SIEM deployment, endpoint and network monitoring, detection engineering, threat hunting, and security troubleshooting.
 
-## Currently Learning
-- Linux
-- Networking
-- Git & GitHub
-- Wireshark
-- Nessus
-- Cisco Packet Tracer
+My work emphasizes understanding the full security-event pipeline: generating activity, collecting telemetry, validating detections, investigating failures, and documenting reproducible results.
 
-  ## Home Lab
-  
-- MacBook Pro M3
-- VMware Fusion
-- Windows 11 ARM
-- Kali Linux
+## What I'm Working On
 
-  ## Current Goals
+### [8-Week Security Engineering Mentorship](https://github.com/MN-young/security-engineering-mentorship-labs)
 
-- Earn CompTIA Security+
-- Build 30+ cybersecurity labs
-- Learn AWS Cloud Security
-- Become a Security Engineer
+I am building and documenting an eight-week series of security engineering labs. The portfolio currently includes Wazuh, Suricata, Linux, Windows, Docker, File Integrity Monitoring, custom detections, and controlled attack simulations.
 
-## Connect with Me
+## Featured Projects
 
-- LinkedIn (coming soon)
+### [Week 1 — Wazuh Multi-Agent SIEM and Detection Engineering](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-01-wazuh-multi-agent-lab)
 
-<!--
-**MN-young/MN-young** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Deployed a Wazuh environment across Linux, Windows, and Dockerized endpoints. Extended the lab with File Integrity Monitoring, custom failed-authentication detections, cross-platform alert visualization, and methodical troubleshooting across the event pipeline.
 
-Here are some ideas to get you started:
+### [Week 2 — Suricata and Wazuh Network Detection](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-02-suricata-wazuh-integration)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Integrated Suricata network telemetry with Wazuh and built a custom internal TCP SYN-scan detection. Validated the complete path from Nmap test traffic to a Suricata alert in `eve.json` and a searchable Wazuh Threat Hunting event.
+
+## Technical Focus
+
+### Security
+
+Wazuh · Suricata · SIEM · SOC operations · Detection engineering · Threat hunting · File Integrity Monitoring · Log analysis
+
+### Systems
+
+Linux · Windows · Docker · Virtualized lab environments
+
+### Networking
+
+TCP/IP · Nmap · Wireshark · IDS/NIDS · Network traffic analysis
+
+### Development / Automation
+
+Git · GitHub · Python · Bash · Security workflow automation
+
+### Cloud / DevSecOps
+
+AWS fundamentals · Cloud security · DevSecOps practices · Secure infrastructure
+
+## Certifications & Learning
+
+Currently preparing for:
+
+- CompTIA Security+
+- Microsoft SC-900
+- Microsoft SC-200
+
+## Current Goals
+
+- Complete and document the eight-week Security Engineering mentorship.
+- Build a portfolio of reproducible, evidence-backed security projects.
+- Strengthen SOC, detection engineering, cloud security, and DevSecOps skills.
+- Develop security automation and incident-investigation workflows.
+- Progress into a Security Engineering, SOC, or Cloud Security role.
+
+## Connect With Me
+
+[LinkedIn — Young Micheal](https://www.linkedin.com/in/young-micheal-4a2141421)
