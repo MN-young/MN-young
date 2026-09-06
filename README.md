@@ -64,4 +64,4 @@ Currently preparing for:
 
 ## Connect With Me
 
-[LinkedIn — Young Micheal](https://www.linkedin.com/in/young-micheal-4a2141421)
+[LinkedIn — Young Micheal](https://www.linkedin.com/in/young-ndubuisi-micheal/)
