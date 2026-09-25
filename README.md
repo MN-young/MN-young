@@ -17,9 +17,9 @@ I am completing an [eight-week Security Engineering Mentorship portfolio](https:
 | 1 | [Wazuh Multi-Agent SIEM and Detection Engineering](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-01-wazuh-multi-agent-lab) | Endpoint monitoring, FIM, custom detections |
 | 2 | [Suricata and Wazuh Network Detection](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-02-suricata-wazuh-integration) | Network IDS, SYN-scan detection, SIEM validation |
 | 3 | [Wazuh, TheHive and Cortex Case Management](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-03-wazuh-thehive-cortex-case-management) | Automated cases, observables, enrichment |
-| 4 | [Attack Simulation and Full-Chain Validation](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-4-attack-simulation) | Atomic Red Team, MITRE ATT&CK, detection gaps |
-| 5 | [SOAR Automation and Analyst Handoff](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-5-soar-automation) | Shuffle, Slack, VirusTotal, conditional routing |
-| 6 | [AppSec Findings to SOC Visibility](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-6-appsec-wazuh-integration) | GitHub Actions, Semgrep, pip-audit, Wazuh |
+| 4 | [Attack Simulation and Full-Chain Validation](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-04-attack-simulation) | Atomic Red Team, MITRE ATT&CK, detection gaps |
+| 5 | [SOAR Automation and Analyst Handoff](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-05-soar-automation) | Shuffle, Slack, VirusTotal, conditional routing |
+| 6 | [AppSec Findings to SOC Visibility](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-06-appsec-wazuh-integration) | GitHub Actions, Semgrep, pip-audit, Wazuh |
 
 ## Featured Application Security Project
 
