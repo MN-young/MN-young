@@ -4,63 +4,62 @@
 
 ## About Me
 
-I build practical security engineering skills through hands-on labs focused on SIEM deployment, endpoint and network monitoring, detection engineering, threat hunting, and security troubleshooting.
+I build and document hands-on security engineering labs across SIEM, endpoint and network monitoring, detection engineering, SOAR, attack simulation, and application security.
 
-My work emphasizes understanding the full security-event pipeline: generating activity, collecting telemetry, validating detections, investigating failures, and documenting reproducible results.
+My work focuses on the complete security-event lifecycle: generating controlled activity, collecting telemetry, engineering and validating detections, troubleshooting failures, routing actionable alerts, and documenting reproducible results.
 
-## What I'm Working On
+## Security Engineering Mentorship
 
-### [8-Week Security Engineering Mentorship](https://github.com/MN-young/security-engineering-mentorship-labs)
+I am completing an [eight-week Security Engineering Mentorship portfolio](https://github.com/MN-young/security-engineering-mentorship-labs). Six projects are currently documented with implementation notes, validation evidence, troubleshooting records, and lessons learned.
 
-I am building and documenting an eight-week series of security engineering labs. The portfolio currently includes Wazuh, Suricata, Linux, Windows, Docker, File Integrity Monitoring, custom detections, and controlled attack simulations.
+| Week | Project | Focus |
+| --- | --- | --- |
+| 1 | [Wazuh Multi-Agent SIEM and Detection Engineering](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-01-wazuh-multi-agent-lab) | Endpoint monitoring, FIM, custom detections |
+| 2 | [Suricata and Wazuh Network Detection](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-02-suricata-wazuh-integration) | Network IDS, SYN-scan detection, SIEM validation |
+| 3 | [Wazuh, TheHive and Cortex Case Management](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-03-wazuh-thehive-cortex-case-management) | Automated cases, observables, enrichment |
+| 4 | [Attack Simulation and Full-Chain Validation](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-4-attack-simulation) | Atomic Red Team, MITRE ATT&CK, detection gaps |
+| 5 | [SOAR Automation and Analyst Handoff](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-5-soar-automation) | Shuffle, Slack, VirusTotal, conditional routing |
+| 6 | [AppSec Findings to SOC Visibility](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-6-appsec-wazuh-integration) | GitHub Actions, Semgrep, pip-audit, Wazuh |
 
-## Featured Projects
+## Featured Application Security Project
 
-### [Week 1 — Wazuh Multi-Agent SIEM and Detection Engineering](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-01-wazuh-multi-agent-lab)
+### [SecureOps AppSec Lab](https://github.com/MN-young/week-6-appsec-wazuh-lab)
 
-Deployed a Wazuh environment across Linux, Windows, and Dockerized endpoints. Extended the lab with File Integrity Monitoring, custom failed-authentication detections, cross-platform alert visualization, and methodical troubleshooting across the event pipeline.
-
-### [Week 2 — Suricata and Wazuh Network Detection](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-02-suricata-wazuh-integration)
-
-Integrated Suricata network telemetry with Wazuh and built a custom internal TCP SYN-scan detection. Validated the complete path from Nmap test traffic to a Suricata alert in `eve.json` and a searchable Wazuh Threat Hunting event.
+Built an intentionally vulnerable Flask training application with independent Semgrep and pip-audit GitHub Actions jobs. Application-security findings were exported as JSON, transferred into Wazuh, classified as high-severity alerts, and delivered through Shuffle to Slack. The final state demonstrates an expected red Semgrep gate for the deliberate SQL injection alongside a clean dependency audit after remediation.
 
 ## Technical Focus
 
-### Security
+### Security Operations and Detection
 
 Wazuh · Suricata · SIEM · SOC operations · Detection engineering · Threat hunting · File Integrity Monitoring · Log analysis
 
-### Systems
+### Automation and Case Management
 
-Linux · Windows · Docker · Virtualized lab environments
+Shuffle SOAR · TheHive · Cortex · VirusTotal · Slack alerting · Conditional response workflows
 
-### Networking
+### Application Security and Development
 
-TCP/IP · Nmap · Wireshark · IDS/NIDS · Network traffic analysis
+Semgrep · pip-audit · GitHub Actions · Python · Flask · Git · Bash · DevSecOps
 
-### Development / Automation
+### Systems, Networking, and Cloud
 
-Git · GitHub · Python · Bash · Security workflow automation
+Linux · Windows · Docker · TCP/IP · Nmap · Wireshark · AWS fundamentals · Cloud security
 
-### Cloud / DevSecOps
+## Current Goals
 
-AWS fundamentals · Cloud security · DevSecOps practices · Secure infrastructure
+- Complete and document the eight-week Security Engineering Mentorship.
+- Continue building reproducible, evidence-backed security projects.
+- Strengthen SOC, detection engineering, cloud security, and DevSecOps skills.
+- Develop practical security automation and incident-investigation workflows.
+- Progress into a Security Engineering, SOC, or Cloud Security role.
 
-## Certifications & Learning
+## Certifications and Learning
 
 Currently preparing for:
 
 - CompTIA Security+
 - Microsoft SC-900
 - Microsoft SC-200
-
-## Current Goals
-
-- Complete and document the eight-week Security Engineering mentorship.
-- Build a portfolio of reproducible, evidence-backed security projects.
-- Strengthen SOC, detection engineering, cloud security, and DevSecOps skills.
-- Develop security automation and incident-investigation workflows.
-- Progress into a Security Engineering, SOC, or Cloud Security role.
 
 ## Connect With Me
 
