@@ -10,7 +10,7 @@ My work focuses on the complete security-event lifecycle: generating controlled 
 
 ## Security Engineering Mentorship
 
-I am completing an [eight-week Security Engineering Mentorship portfolio](https://github.com/MN-young/security-engineering-mentorship-labs). Six projects are currently documented with implementation notes, validation evidence, troubleshooting records, and lessons learned.
+I have completed the technical lab series for my [eight-week Security Engineering Mentorship portfolio](https://github.com/MN-young/security-engineering-mentorship-labs). The eight project records connect endpoint and network monitoring, case management, attack simulation, SOAR, application security, infrastructure security, and final SOC integration, with implementation notes, validation evidence, troubleshooting, and documented limitations.
 
 | Week | Project | Focus |
 | --- | --- | --- |
@@ -20,6 +20,16 @@ I am completing an [eight-week Security Engineering Mentorship portfolio](https:
 | 4 | [Attack Simulation and Full-Chain Validation](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-04-attack-simulation) | Atomic Red Team, MITRE ATT&CK, detection gaps |
 | 5 | [SOAR Automation and Analyst Handoff](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-05-soar-automation) | Shuffle, Slack, VirusTotal, conditional routing |
 | 6 | [AppSec Findings to SOC Visibility](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-06-appsec-wazuh-integration) | GitHub Actions, Semgrep, pip-audit, Wazuh |
+| 7 | [Terraform, Checkov and Wazuh IaC Security](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-07-terraform-checkov-wazuh) | IaC scanning, local Wazuh ingestion, focused SSH remediation |
+| 8 | [Final SOC Integration and End-to-End Security Monitoring](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-08-final-soc-integration) | DVWA, SQLi detection, recon-to-Slack correlation, AppSec/IaC regression checks |
+
+## Featured SOC Integration Project
+
+### [Week 8 Final SOC Integration](https://github.com/MN-young/security-engineering-mentorship-labs/tree/main/week-08-final-soc-integration)
+
+Brought the lab's network detection and notification systems together around DVWA. Reconnaissance was traced through Suricata, Wazuh Rule 110750 at Level 8, Shuffle and Slack. SQL injection succeeded against the training application and generated Suricata/Wazuh alerts; attempted privilege escalation remained unsuccessful as `www-data`.
+
+Rechecked Semgrep, pip-audit and Checkov findings in Wazuh while preserving the distinction between local ingestion and unverified direct GitHub Actions-to-Wazuh automation. Fresh Week 8 TheHive/Cortex case creation and enrichment remained limited. The portfolio retains failures, corrections and the actual final state.
 
 ## Featured Application Security Project
 
@@ -43,11 +53,12 @@ Semgrep · pip-audit · GitHub Actions · Python · Flask · Git · Bash · DevS
 
 ### Systems, Networking, and Cloud
 
-Linux · Windows · Docker · TCP/IP · Nmap · Wireshark · AWS fundamentals · Cloud security
+Linux · Windows · Docker · TCP/IP · Nmap · Wireshark · Terraform · Checkov · AWS fundamentals · Cloud security
 
 ## Current Goals
 
-- Complete and document the eight-week Security Engineering Mentorship.
+- Continue hands-on security engineering practice after the eight-week technical lab series.
+- Build toward cloud security through continued hands-on projects.
 - Continue building reproducible, evidence-backed security projects.
 - Strengthen SOC, detection engineering, cloud security, and DevSecOps skills.
 - Develop practical security automation and incident-investigation workflows.
